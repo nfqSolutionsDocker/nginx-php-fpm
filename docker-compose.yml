@@ -1,0 +1,11 @@
+nginx:
+ container_name: nginx
+ image: nfqsolutions/nginx-php-fpm
+ environment:
+  - WEBROOT=/usr/share/nginx/html
+ volumes:
+  - /opt/nginx/volumes/config:/etc/nginx/sites-available
+  - /opt/nginx/volumes/www:/var/www/html
+  - /opt/nginx/volumes/logs:/LOGS/web
+ ports:
+  - "80:80"

@@ -1,12 +1,8 @@
-[![Travis](https://img.shields.io/docker/pulls/richarvey/nginx-php-fpm.svg?style=flat-square)]()
-[![Travis](https://img.shields.io/docker/stars/richarvey/nginx-php-fpm.svg?style=flat-square)]()
-[![Travis](https://img.shields.io/travis/ngineered/nginx-php-fpm.svg?style=flat-square)]()
-
 ## Introduction
 This is a Dockerfile to build a container image for nginx and php-fpm, with the ability to pull website code from git. The container also has the ability to update templated files with variables passed to docker in order to update your settings. There is also support for lets encrypt SSL support.
 
 ### Git repository
-The source files for this project can be found here: [https://github.com/ngineered/nginx-php-fpm](https://github.com/nfqSolutionsDocker/nginx-php-fpm)
+The source files for this project can be found here: [https://github.com/nfqSolutionsDocker/nginx-php-fpm](https://github.com/nfqSolutionsDocker/nginx-php-fpm)
 
 If you have any improvements please submit a pull request.
 ### Docker hub repository

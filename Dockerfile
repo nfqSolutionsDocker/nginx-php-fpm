@@ -55,6 +55,7 @@ RUN echo @testing http://nl.alpinelinux.org/alpine/edge/testing >> /etc/apk/repo
     linux-headers \
     libffi-dev &&\
     mkdir -p /etc/nginx && \
+    mkdir -p /var/log/web && \
     mkdir -p /var/www/app && \
     mkdir -p /run/nginx && \
     mkdir -p /var/log/supervisor && \

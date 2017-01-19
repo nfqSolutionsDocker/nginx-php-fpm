@@ -6,7 +6,7 @@
 This is a Dockerfile to build a container image for nginx and php-fpm, with the ability to pull website code from git. The container also has the ability to update templated files with variables passed to docker in order to update your settings. There is also support for lets encrypt SSL support.
 
 ### Git repository
-The source files for this project can be found here: [https://github.com/ngineered/nginx-php-fpm](https://github.com/ngineered/nginx-php-fpm)
+The source files for this project can be found here: [https://github.com/ngineered/nginx-php-fpm](https://github.com/nfqSolutionsDocker/nginx-php-fpm)
 
 If you have any improvements please submit a pull request.
 ### Docker hub repository
@@ -103,13 +103,13 @@ sudo docker run -d -e 'GIT_NAME=full_name' -e 'GIT_USERNAME=git_username' -e 'GI
 ```
 
 ### Custom Nginx Config files
-Sometimes you need a custom config file for nginx to achieve this read the [Nginx config guide](https://github.com/ngineered/nginx-php-fpm/blob/master/docs/nginx_configs.md) 
+Sometimes you need a custom config file for nginx to achieve this read the [Nginx config guide](https://github.com/nfqSolutionsDocker/nginx-php-fpm/blob/master/docs/nginx_configs.md) 
 
 ### Scripting and Templating
-Please see the [Scripting and templating guide](https://github.com/ngineered/nginx-php-fpm/blob/master/docs/scripting_templating.md) for more details.
+Please see the [Scripting and templating guide](https://github.com/nfqSolutionsDocker/nginx-php-fpm/blob/master/docs/scripting_templating.md) for more details.
 
 ### Lets Encrypt support
-This container includes support to easily manage lets encrypt certificates. Please see the [Lets Encrypt guide](https://github.com/ngineered/nginx-php-fpm/blob/master/docs/lets_encrypt.md) for more details.
+This container includes support to easily manage lets encrypt certificates. Please see the [Lets Encrypt guide](https://github.com/nfqSolutionsDocker/nginx-php-fpm/blob/master/docs/lets_encrypt.md) for more details.
 
 ## Special Git Features
 Specify the ```GIT_EMAIL``` and ```GIT_NAME``` variables for this to work. They are used to set up git correctly and allow the following commands to work.
